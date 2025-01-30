@@ -28,9 +28,7 @@ const connectDB = async () => {
 connectDB();
 
 const connection = {
-  // host: 'redis',
-  port: process.env.REDIS_PORT || 6379,
-  db: process.env.REDIS_DB || 0,
+  host: 'redis',
 };
 
 const worker = new Worker(

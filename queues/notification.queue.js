@@ -1,7 +1,7 @@
 import { Queue } from 'bullmq';
 
 const connection = {
-  // host: 'redis',
+  host: 'redis',
 };
 
 // Create the BullMQ queue
