@@ -18,6 +18,8 @@ This is the backend service for the **User Management System (UMS)**. It provide
 - **Authentication:** JWT
 - **Environment Variables:** dotenv
 
+## API Documentation
+- <a href="https://documenter.getpostman.com/view/14426150/2sAYX2N4R6" target="_blank">Docs</a>
 ## Installation
 
 ### Prerequisites
@@ -49,9 +51,6 @@ Create a `.env` file in the root directory and add:
 PORT=8800
 DATABASE_URI=mongodb://localhost:27017/ums_db
 JWT_SECRET=your_jwt_secret
-REDIS_HOST=localhost
-REDIS_PORT=6379
-REDIS_DB=0
 ```
 
 ### Running the Project
